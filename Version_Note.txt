@@ -1,0 +1,30 @@
+----------------------------------------
+ :::::::::::::::PRATES:::::::::::::::::
+----------------------------------------
+PROJECT FOLDER'S VERSION:       1.08.000
+RELEASED ON:                  2024-02-06
+ERP:                          ----------
+
+----------------------------------------
+NECESSARY DEPENDENCES:
+----------------------------------------
+robotframework                     5.0.1
+robotframework-pythonlibcore       3.0.0
+robotframework-imagehorizonlibrary 1.0
+robotframework-SikuliLibrary       2.0.3
+PyYAML                             6.0
+humanfriendly                      10.0
+PyAutoGUI                          0.9.53
+console                            0.9907
+ConsoleMenu                        1.0.1
+py-console                         0.1.4
+colorama                           0.4.6
+coloredlogs                        15.0.1
+decorator                          5.1.1
+exceptiongroup                     1.0.0rc9
+
+----------------------------------------
+SQL CONNECTORS:
+----------------------------------------
+firebirdsql                        1.2.2
+mysql-connector-python             8.0.29

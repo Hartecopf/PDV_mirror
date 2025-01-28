@@ -1,0 +1,12 @@
+---
+# SETTINGS FILE PATHS OF THE PRATES PROJECT FOLDER ::
+main_config: 'C:\_Automation\change_automations_18.0\compatibility_tests\Config.yaml'
+cnfg_backp: 'C:\_Automation\change_automations_18.0\compatibility_tests\_custom_libraries\input\Config_Bkp.yaml'
+cashier_output: 'C:\_Automation\change_automations_18.0\compatibility_tests\_custom_libraries\output\cashier_output.yaml'
+local_storage: 'C:\_Automation\change_automations_18.0\compatibility_tests\_custom_libraries\input\Database_Content.yaml'
+system_settings: 'C:\_Automation\change_automations_18.0\compatibility_tests\_custom_libraries\input\ConfigPDV.yaml'
+nis_path: 'C:\nis'
+nis_fiscalCheckupConfig: 'C:\nis\fiscalcontrol\config.yaml'
+...
+
+

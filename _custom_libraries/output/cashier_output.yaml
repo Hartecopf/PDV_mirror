@@ -1,0 +1,33 @@
+---
+all_the_sales_finished: 410.99
+canceled_sale: 0
+cashier_adjustment:
+  bank_transfer: 0.0
+  cashback: 0.0
+  check: 0.0
+  credit_card: 0.0
+  customer_payment: 0.0
+  pix: 0.0
+  ticket: 0.0
+cashier_serial_code: 2798
+cashiers_event: 5
+old_cashier_serial_code: 2798
+payment_methods:
+  bank_transfer: 0.0
+  cashback: 212.49
+  check: 173.5
+  credit_card: 10.0
+  customer_payment: 15.0
+  pix: 0.0
+  ticket: 0.0
+removed_values: 0.0
+reset: 0
+sales_quantity: 7
+sangria_quantity: 0
+total_canceled_sales: 0.0
+total_eletronic_payments: 10.0
+total_on_cashier: 385.99
+total_sales_value: 395.99
+total_uncompleted_sales: 15.0
+uncompleted_sale: 1
+...

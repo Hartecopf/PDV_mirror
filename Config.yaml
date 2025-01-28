@@ -1,0 +1,159 @@
+    #
+# 		PRATES SYSTEM SETTINGS ::
+#
+# This  document type  format [.yaml]
+# is a system  handler to the project
+# behaviour. Each  varibale and  its
+# proper  type  attends  an  expecif
+# resource  and  performs an expcted
+# event.  Remove or  alter any  line
+# of this file, will raise  an error
+# as long as it will stop the sytem
+# running.
+#-------------------------------------
+# Database Connection:
+#-------------------------------------
+data_debug: false
+use_new_connect: true
+server_user: 'user_name'
+server_passwrd: 'password'
+host_server: 'host_name'
+port: 0001
+database: 'database_name'
+#-------------------------------------
+# Sales Person:
+#-------------------------------------
+company_code: 1
+user_code_id: 1
+user_name: 'UserName'
+computer_name: 'AUTO-MAC'
+cashier_code: 80
+cashier_name: 'CashierName'
+#-------------------------------------
+# Data Libraries Behaviour:
+#-------------------------------------
+data_recovery: false
+get_data_from_db: true
+limit_for_cust: 25
+limit_for_prod: 30
+randomize_choice: true
+set_new_data: false
+use_pdv_price: true
+sequence_of_products:
+ - null
+sequence_of_customers:
+ - null
+auto_update_of_data: false
+promotional_checking: true
+#-------------------------------------
+# System Login:
+#-------------------------------------
+pdv_user_id: 1
+pdv_user_password: 1
+master_password: 1
+pattern_client_code: 1995
+myc_user_id: 1
+myc_user_password: 1
+pattern_client_cpf: '08296743906'
+access_code: 'empty'
+close_system: false
+#-------------------------------------
+# Customers Tasks:
+#-------------------------------------
+use_client_selection: true
+use_default_client: false
+default_client_code: 1996
+use_cnpj_code: false
+use_cpf_code: true
+use_client_search_win: true
+filter_by_social_name: false
+filter_by_client_code: false
+filter_by_cnpj_cpf: true
+randomize_cpf_code: false
+customer_sequence: false
+custom_client_sequence:
+  - null
+rand_client_code_payment: false
+confirm_customer_cpf: true
+credit_months: 1
+#-------------------------------------
+# Tax Document Output:
+#-------------------------------------
+print_pix_docmnt: false
+cstat_check_out: true
+print_dav: false
+#-------------------------------------
+# Products Tasks:
+#-------------------------------------
+randomize_qnt_product: true
+qnt_max_prod_for_sale: 10
+qnt_prod_for_sale: 5
+use_product_grouping: true
+choose_prod_in_the_layout: true
+filter_by_code: false
+filter_by_barcode: true
+filter_by_refe: false
+filter_by_desc: false
+use_default_product: false
+standard_product: 11943
+product_sequence: false
+#-------------------------------------
+# 	 	  Sequence Buildin:
+#-------------------------------------
+# - x      -> Unity
+# - [x, y] -> Product, Quantity
+# - (x, y) -> Product, Quantity
+#-------------------------------------
+custom_prod_sequence:
+ - [47, 5]
+ - [30500, 7]
+ #- 30501
+#-------------------------------------
+# Pricing Table Replacement:
+#-------------------------------------
+replace_pricing_table: false
+check_customer_record: false
+pricing_table_limit: 50
+pricing_list_code_id: 0
+pricing_list_name: ''
+#-------------------------------------
+# Payment Ways:
+#-------------------------------------
+pay_cashback: true
+pay_check: true
+pay_customer_credit: true
+pay_credit_card: true
+type_card: 'CRT'
+set_card_info: false
+# Info Card -> [Ope. Code, Index Code]
+info_card: [1, 4]
+pay_eletronic_transf: false
+pay_pix_code: false
+use_difference: false
+#-------------------------------------
+# Uncompleted Sale Event & Cancelling:
+#-------------------------------------
+uncomplete_sale: false
+cancel_sale: true
+recursion: 12
+#-------------------------------------
+# Cashier Event :: Sangria
+#-------------------------------------
+sangria: false
+cash_event: true
+check_event: false
+minimun_necessary: 500
+value_extracted: 300
+myc_cashier_code: 81
+myc_cashier_name: 'CAIXA ADM2'
+sangria_recursion: 75
+#-------------------------------------
+# Parameters For Test Sequence Script
+#-------------------------------------
+startup_time: 90
+repeat_cycle_times: 5
+default_time: 2
+alert_image_time: 3
+synchronization_time: 45
+cancelations_time: 25
+force_recalc: false

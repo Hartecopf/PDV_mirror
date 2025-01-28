@@ -1,0 +1,108 @@
+---
+access_code: empty
+alert_image_time: 3
+auto_update_of_data: false
+cancel_sale: true
+cancelations_time: 25
+cash_event: true
+cashier_code: 80
+cashier_name: PDV_AUTO2
+check_customer_record: false
+check_event: false
+choose_prod_in_the_layout: true
+close_system: false
+company_code: 1
+computer_name: AUTO-MAC
+confirm_customer_cpf: true
+credit_months: 1
+cstat_check_out: true
+custom_client_sequence:
+- null
+custom_prod_sequence:
+- - 47
+  - 5
+- - 30500
+  - 7
+customer_sequence: false
+data_debug: false
+data_recovery: false
+database: p10
+default_client_code: 1996
+default_time: 2
+filter_by_barcode: true
+filter_by_client_code: false
+filter_by_cnpj_cpf: true
+filter_by_code: false
+filter_by_desc: false
+filter_by_refe: false
+filter_by_social_name: false
+force_recalc: false
+get_data_from_db: true
+host_server: 10.1.1.220
+info_card:
+- 1
+- 4
+limit_for_cust: 25
+limit_for_prod: 30
+master_password: 1
+minimun_necessary: 500
+myc_cashier_code: 81
+myc_cashier_name: CAIXA ADM2
+myc_user_id: 1
+myc_user_password: 1
+pattern_client_code: 1995
+pattern_client_cpf: 08296743906
+pay_cashback: true
+pay_check: true
+pay_credit_card: true
+pay_customer_credit: true
+pay_eletronic_transf: false
+pay_pix_code: false
+pdv_user_id: 1
+pdv_user_password: 1
+port: 3306
+pricing_list_code_id: 0
+pricing_list_name: ''
+pricing_table_limit: 50
+print_dav: false
+print_pix_docmnt: false
+product_sequence: false
+promotional_checking: true
+qnt_max_prod_for_sale: 10
+qnt_prod_for_sale: 5
+rand_client_code_payment: false
+randomize_choice: true
+randomize_cpf_code: false
+randomize_qnt_product: true
+recursion: 12
+repeat_cycle_times: 5
+replace_pricing_table: false
+sangria: false
+sangria_recursion: 75
+sequence_of_customers:
+- null
+sequence_of_products:
+- null
+server_passwrd: vssql
+server_user: root
+set_card_info: false
+set_new_data: false
+standard_product: 11943
+startup_time: 90
+synchronization_time: 45
+type_card: CRT
+uncomplete_sale: false
+use_client_search_win: true
+use_client_selection: true
+use_cnpj_code: false
+use_cpf_code: true
+use_default_client: false
+use_default_product: false
+use_difference: false
+use_new_connect: true
+use_pdv_price: true
+use_product_grouping: true
+user_code_id: 1
+user_name: Visual
+value_extracted: 300
+...
