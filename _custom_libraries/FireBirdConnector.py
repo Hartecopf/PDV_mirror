@@ -28,7 +28,7 @@ class FbConnector(object):
     _e_db: str= 'C:\Visual Software\MyCommerce\PDV\Offline\PDVOFF.FDB'
     _e_port: int = 3050
     _e_user: str = 'sysdba'
-    _e_psswrd: str= 'masterkey'
+    _e_psswrd: str= 'password'
     _cnn_:dict = {
         'host':_e_host, 
         'port':_e_port, 

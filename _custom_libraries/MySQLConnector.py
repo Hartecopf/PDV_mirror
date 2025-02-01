@@ -57,10 +57,10 @@ class MySQLConnector(object):
         MyLog2.info("Dismissed intial settings to MySQLConnection :: %s" %(_cnn_config,))
     else: pass
 
-    #\\... Static Data ::
+    #\\... Current Data ::
     today: dt = dt.date.today()
     
-    #\\... Variable Data ::
+    #\\... Scalar Variables ::
     query_results: object = None
     cur_rowcount: int = int()
     firebird_check: bool = False
